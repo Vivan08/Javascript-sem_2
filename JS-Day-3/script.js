@@ -120,7 +120,7 @@ console.log(fruits)
 let arr=[1,2,3,0,4,5,23,0,0,0,12]
 let arr1=[]
 let zcount = 0
-for(let i = arr.length-1;i>=0;i--){
+while(arr.length>0){
     let rem = arr.pop();
     if (rem == 0){
         zcount ++;
@@ -129,7 +129,7 @@ for(let i = arr.length-1;i>=0;i--){
         arr1.push(rem);
     }
 }
-for(i =0;i<zcount;i++){
+for(let i =0;i<zcount;i++){
     arr1.push(0);
 }
 console.log(arr1)
