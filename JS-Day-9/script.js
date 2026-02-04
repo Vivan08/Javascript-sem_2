@@ -1,15 +1,15 @@
-// // query Selector
-// const query = document.querySelector("#heading p");
-// console.log(query);
+// query Selector
+const query = document.querySelector("#heading p");
+console.log(query);
 
-// query.textContent="Hello World from query selector"
+query.textContent="Hello World from query selector"
 
-// // Query selector all
-// const queryAll = document.querySelectorAll("p");
-// console.log(queryAll);
-// for(let i=0; i<queryAll.length; i++){
-//     queryAll[i].textContent="jbubcdj uewf yb e" ;
-// }
+// Query selector all
+const queryAll = document.querySelectorAll("p");
+console.log(queryAll);
+for(let i=0; i<queryAll.length; i++){
+    queryAll[i].textContent="jbubcdj uewf yb e" ;
+}
 
 const query = document.getElementsByTagName("p");
 for(let i = 0 ; i<query.length;i++){
